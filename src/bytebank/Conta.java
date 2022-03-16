@@ -5,7 +5,8 @@ public class Conta {
 	private double getSaldo;
 	private int agencia;
 	private int numero;
-	private String titular;
+	private Cliente titular;
+	
 
 	public void deposita(double valor) {
 
@@ -58,11 +59,11 @@ public class Conta {
 		this.agencia = agencia;
 	}
 
-	public String getTitular() {
+	public Cliente getTitular() {
 		return titular;
 	}
 
-	public void setTitular(String titular) {
+	public void setTitular(Cliente titular) {
 		this.titular = titular;
 	}
 
