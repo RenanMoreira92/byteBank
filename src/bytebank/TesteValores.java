@@ -11,6 +11,7 @@ public class TesteValores {
 		Conta conta3 = new Conta(2112, 14660);
 
 		System.out.println(conta.getTotal());
+		System.out.println(conta2.getAgencia());
 
 	}
 
